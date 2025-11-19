@@ -10,7 +10,7 @@ const HeaderTile: React.FC<HeaderTileProps> = ({ title, subtitle }) => {
   return (
     <div className="p-6">
       <h1 className="text-5xl font-semibold text-center">{title}</h1>
-      <h2 className="text-3xl mt-2 font-light opacity-90 text-center">{subtitle}</h2>
+      <h2 className="text-2xl mt-2 font-light opacity-90 text-center">{subtitle}</h2>
 
       <div className="flex gap-6 mt-6 text-3xl justify-center">
         <a href="https://github.com/WioletaKolodziej" target="_blank"><FaGithub /></a>
