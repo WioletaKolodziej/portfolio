@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect, type ReactNode } from "react";
+import React, { useState, useRef, type ReactNode } from "react";
 import { FiPlus, FiX } from "react-icons/fi";
 
 export interface CardProps {

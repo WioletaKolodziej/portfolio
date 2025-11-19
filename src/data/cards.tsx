@@ -1,4 +1,4 @@
-import { FaCode, FaLinkedin, FaPalette, FaVial } from "react-icons/fa";
+import { FaCode, FaPalette, FaVial } from "react-icons/fa";
 
 export const cardsData = {
   header: {
