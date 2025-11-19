@@ -11,9 +11,9 @@ export const cardsData = {
   about: {
     title: "About me",
     description:
-      "I am a frontend developer experienced in React, JavaScript, TypeScript, and accessibility standards (WCAG) open to collaboration. I value practical solutions, continuous learning, and good communication. Feel free to explore my projects, see my expertise in tools and development, and contact me for collaboration.",
+      "I am a frontend developer experienced in React, JavaScript, TypeScript, and accessibility standards (WCAG). Feel free to explore my projects, see my expertise in tools and development, and contact me for collaboration.",
     expanded: `
-      I am a frontend developer experienced in React and TypeScript, open to collaboration. I value practical solutions, continuous learning, and good communication. Feel free to explore my projects, see my expertise in tools and development, and contact me for collaboration.
+      I am a frontend developer experienced in React, JavaScript, TypeScript, and accessibility standards (WCAG) open to collaboration. I value practical solutions, continuous learning, and good communication. Feel free to explore my projects, see my expertise in tools and development, and contact me for collaboration.
     
       I specialize in creating clean, accessible UIs and solving UI/UX problems with a practical mindset.
       I enjoy building tools that improve workflow and collaborating on thoughtful front-end architecture.
@@ -159,40 +159,44 @@ export const cardsData = {
       expanded: (
         <section
           id="contact"
-          className="py-20 container mx-auto px-4 text-center transition-colors"
+          className="py-24 text-center text-white relative overflow-hidden"
         >
-          <p className="text-lg mb-8 text-white">
-            Have a question or want to work together? Reach out!
-          </p>
-          <a
-            href="mailto:kolowioleta@gmail.com"
-            className="
-              inline-block
-              bg-gray-100
-              text-gray-800
-              backdrop-blur-md
-              border border-gray-300 dark:border-gray-600
-              py-3 px-6
-              rounded-lg
-              font-semibold
-              hover:opacity-70
-              focus:ring-2 focus:ring-gray-700 focus:ring-offset-2
-              transition
-            "
-          >
-            Send Message
-          </a>
-          <p className="my-20">
-            <strong>Email:</strong> uikolo.frontend@gmail.com{" "}
-            <strong>Chat:</strong>{" "}
+          <div className="relative z-10 max-w-2xl mx-auto px-4">
+            <p className="text-lg mb-12">
+              Have a question or want to work together? Reach out, I’d love to
+              hear from you!
+            </p>
+
             <a
-              href="https://www.linkedin.com/in/wioleta-ko%C5%82odziej-%C5%BCmudzka-113113195/"
-              rel="noopener noreferrer"
-              className="underline transition-colors duration-200"
+              href="mailto:kolowioleta@gmail.com"
+              className="inline-block bg-white text-indigo-700 font-semibold py-3 px-8 rounded-full shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300"
             >
-              LinkedIn
+              Send Message
             </a>
-          </p>
+
+            <div className="mt-16 text-lg space-y-4">
+              <p>
+                <strong>Email:</strong>{" "}
+                <a
+                  href="mailto:uikolo.frontend@gmail.com"
+                  className="underline hover:text-indigo-200 transition-colors"
+                >
+                  uikolo.frontend@gmail.com
+                </a>
+              </p>
+              <p>
+                <strong>Chat:</strong>{" "}
+                <a
+                  href="https://www.linkedin.com/in/wioleta-ko%C5%82odziej-%C5%BCmudzka-113113195/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="underline hover:text-indigo-200 transition-colors"
+                >
+                  LinkedIn
+                </a>
+              </p>
+            </div>
+          </div>
         </section>
       ),
     },
